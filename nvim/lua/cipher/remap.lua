@@ -54,7 +54,7 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
-vim.keymap.set("n", "<leader>vpp", "<cmd>terminal nvim /Users/ciphe/AppData/Local/nvim/<CR>");
+vim.keymap.set("n", "<leader>vpp", "<cmd>e /home/cipher/.config/nvim/lua/cipher/lazy_init.lua<CR>");
 vim.keymap.set("n", "<leader>fml", "<cmd>CellularAutomaton make_it_rain<CR>");
 vim.keymap.set("n", "<leader>gol", "<cmd>CellularAutomaton game_of_life<CR>");
 
